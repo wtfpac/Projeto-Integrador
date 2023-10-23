@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page de Paisagismo</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://unpkg.com/css.gg@2.0.0/icons/css/menu.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="menu">
+        <div class="menu-icon">
+            <i class="gg-menu"></i>
+        </div>
+        <div class="menu-dropdown">
+            <a href="#servicos">Serviços</a>
+            <a href="#portfolio">Portifolio</a>
+            <a href="#Equipe">Equipe</a>
+            <a href="#contato">Contato</a>
+        </div>
+    </div>
+    <section class="capa">
+        <div class="capa-text">
+            <div>
+                <h1>Marcio Paisagismo</h1>
+                <p>Reimaginando ambientes, cultivando a arte dos jardins</p>
+                <p><br>Com 35 anos de experiência e uma equipe qualificada,<br>
+                    a Marcio está pronto para proporcionar o melhor <br>
+                    serviço de paisagismo do mercado.</p>
+            </div>
+            <div class="capa-logo">
+                <img src="assets/img/img_paisagismo_1.jpg" alt="Logo da Empresa">
+            </div>
+        </div>
+    </section>
+    <section id="servicos" class="servicos">
+        <h2>Nossos Serviços</h2>
+        <div class="servicos-container">
+            <div class="servico">
+                <i class="fas fa-leaf"></i>
+                <h3>Serviço de Paisagismo</h3>
+                <p>Transformamos seu espaço exterior em um paraíso verde.</p>
+            </div>
+            <div class="servico">
+                <i class="fas fa-tree"></i>
+                <h3>Manutenção de Jardins</h3>
+                <p>Cuidamos do seu jardim para que ele sempre floresça.</p>
+            </div>
+            <div class="servico">
+                <i class="fas fa-sun"></i>
+                <h3>Design de Iluminação</h3>
+                <p>Criamos ambientes encantadores com iluminação personalizada.</p>
+            </div>
+            <div class="servico">
+                <i class="fas fa-water"></i>
+                <h3>Sistemas de Irrigação</h3>
+                <p>Instalamos sistemas eficientes para regar suas plantas.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <h2>Veja Nosso Trabalho</h2>
+        <div class="portfolio-container">
+            <div class="linha1">
+                <div class="projeto">
+                    <img src="assets/img/img_paisagismo_3.jpg" alt="">
+                    <div class="projeto-texto">
+                        <p>Projeto 1 de jardinagem em tal casa</p>
+                    </div>
+                </div>
+                <div class="projeto">
+                    <img src="assets/img/img_paisagismo_4.jpg" alt="">
+                    <div class="projeto-texto">
+                        <p>Projeto 2</p>
+                    </div>
+                </div>
+                <div class="projeto">
+                    <img src="assets/img/img_paisagismo_5.jpg" alt="">
+                    <div class="projeto-texto">
+                        <p>Projeto 3</p>
+                    </div>
+                </div>
+            </div>
+            <div class="linha2">
+                <div class="projeto">
+                    <img src="assets/img/img_paisagismo_6.jpg" alt="">
+                    <div class="projeto-texto">
+                        <p>Projeto 4</p>
+                    </div>
+                </div>
+                <div class="projeto">
+                    <img src="assets/img/img_paisagismo_7.jpg" alt="">
+                    <div class="projeto-texto">
+                        <p>Projeto 5</p>
+                    </div>
+                </div>
+                <div class="projeto">
+                    <img src="assets/img/img_paisagismo_8.jpg" alt="">
+                    <div class="projeto-texto">
+                        <p>Projeto 6</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="Equipe" class="equipe">
+        <h2>Nossa Equipe</h2>
+        <div class="equipe-container">
+            <div class="membro">
+                <img src="assets/img/img_marcio.jpeg" alt="Marcio Katika">
+                <div class="membro-info">
+                    <p style="color: #00c707;">Marcio Katika</p>
+                    <p>Dono</p>
+                    <p>10 anos de experiência com paisagismo</p>
+                </div>
+            </div>
+            <div class="membro">
+                <div class="membro-info">
+                    <i class="fas fa-leaf"></i>
+                    <p>Colaboradores</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contato" class="contato">
+        <h2>Entre em Contato</h2>
+        <div class="contato-container">
+            <div class="informacoes-contato">
+                <div class="info-box">
+                    <i class="far fa-envelope"></i>
+                    <p>Email Comercial: <br><br>contato@marciopaisagismo.com</p>
+                </div>
+                <div class="info-box">
+                    <i class="fab fa-instagram instagram-icon"></i>
+                    <p>Instagram: <br><br> @marciopaisagismo</p>
+                </div>
+                <div class="info-box">
+                    <i class="fab fa-whatsapp whatsapp-icon"></i>
+                    <p>WhatsApp: <br><br>(12) 3456-7890</p>
+                </div>
+            </div>
+            <div class="formulario-contato">
+                <h3>Envie-nos uma Mensagem</h3>
+                <form action="#" method="post">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+                    <label for="telefone">Telefone (opcional):</label>
+                    <input type="tel" id="telefone" name="telefone">
+
+                    <button type="submit">Enviar Mensagem</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Empresa de Paisagismo. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="assets/script/script.js"></script>
+</body>
+
+</html>
